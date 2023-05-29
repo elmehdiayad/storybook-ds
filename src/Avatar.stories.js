@@ -9,6 +9,7 @@ export default {
 
 export const Standard = (args) => <Avatar {...args} />;
 Standard.args = {
+  loading: false,
   size: "large",
   username: "Tom Coleman",
   src: "https://avatars2.githubusercontent.com/u/132554",
